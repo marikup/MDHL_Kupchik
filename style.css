@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Handlee', cursive;
+}
+
+
+nav{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right:20px;
+}
+    
+    
+nav a{
+    color: white;
+    background-color: #3f51b5;
+    border: black 2px solid;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a[href="#"] {
+    background-color: rgb(52, 166, 57);
+    border: black solid 2px;
+}
+   
+
+h2{
+    text-align: center;
+    border: black solid 3px;
+    margin: -6px 0 0 0;
+   
+}
+
+
+
+.logo{
+    
+   
+    width: 160px;
+    margin: 12px;
+    margin-bottom: 199px;
+}
+
+article{
+    display: inline-block;
+    padding: 9px 102px;
+  
+}
+
+
+
+
+section{
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.mail{
+   
+    display: inline-block;
+    padding: 55px 132px;
+    position: relative;
+    margin-bottom: 206px;
+}
+
+.foto1{
+    width: 150px;
+    display: inline-block;
+    margin-left: 15px;
+    }
+
+.foto2{
+        width: 150px;
+        display: inline-block;
+        margin-left: 15px;
+        }
+
+
+.foto3{
+     width: 150px;
+    display: inline-block;
+    margin-left: 19px;
+            }
+
+footer{
+    position: absolute;
+}
+p{
+    font-size: 20px;
+    display: block
+}
+.subtitle{
+    text-align: center;
+    font-size: 2rem;
+    /*margin-bottom: 1rem;*/
+    border: 3px solid black;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    margin: -0.3rem auto ;
+    
+    
+}
+.caja{
+    min-height: 10vh;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+

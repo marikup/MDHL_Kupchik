@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Handlee', cursive;
+}
+
+header{
+    min-height: 10vh;
+    background: rgba(139, 6, 6, 0.88);
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo{
+    width: 14vw;
+}
+
+h1{
+    flex-grow: 1;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgba(144, 138, 138, 0.386);
+}
+
+nav{
+    display: flex;
+    gap: 8px;
+}
+
+nav a{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgba(237, 180, 11, 0.903);
+    color: rgb(20, 19, 19);
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: rgba(237, 180, 11, 0.903);
+    min-height: 80vh;
+    padding: 1rem;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    
+}
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 10px;
+    font-style: italic;
+    color: #1c0a76;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  h2{
+    text-align: center;
+    font-size: 2rem;
+  
+}
+  h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  table {
+    background-color: rgba(106, 55, 60, 0.951);
+    width: 60vw;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 6px;
+    border-collapse:separate;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+.info{
+    margin-top: 20px;
+    font-size: medium;
+}
+.title_rule{
+    text-align: left;
+  
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+td {
+    padding: 10px;
+}
+.box_list {
+    color: rgb(0, 0, 0);
+    width: 35vw;
+    margin: 35px;
+}
+.txt{
+    margin: 30px;
+}
+
+dt{
+    font-size: 20px;
+}
