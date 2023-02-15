@@ -109,9 +109,20 @@ td {
 
 dt{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 a[href="#"] {
     background-color: rgb(52, 166, 57);
     border: black solid 2px;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+dd{
+    margin-bottom: 10px;
+}
+h5{
+    margin-bottom: 10px;
 }
