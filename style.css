@@ -229,6 +229,7 @@ fieldset {
 .input {
     display: inline-block;
     margin: 10px;
+    
 }
 
 
@@ -253,9 +254,11 @@ footer {
 
 .box_maps {
     display: flex;
-    display: flex;
     width: 80%;
     flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .maps {
@@ -308,4 +311,10 @@ article {
     font-size: 2rem;
     border: 3px solid black;
     width: 100%;
+}
+.box_form{
+    border: 1rem solid rgb(126, 22, 22);
+}
+.data{
+    display: grid;
 }
